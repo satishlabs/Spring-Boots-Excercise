@@ -191,3 +191,117 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-10-17 22:35:27.291
+!MESSAGE The POM for org.springframework:spring-context:jar:${spring.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-10-17 22:35:28.625
+!MESSAGE The POM for org.springframework:spring-context:jar:${spring.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-10-17 22:35:29.195
+!MESSAGE The POM for org.springframework:spring-context:jar:${spring.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-10-17 22:35:29.554
+!MESSAGE Could not download sources for org.springframework:spring-context:${spring.version}
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework:spring-context:jar:sources:${spring.version}
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework:spring-context:jar:sources:${spring.version}
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-10-17 22:35:29.555
+!MESSAGE Could not resolve artifact org.springframework:spring-context:jar:sources:${spring.version}
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2021-10-17 22:35:29.555
+!MESSAGE Missing org.springframework:spring-context:jar:sources:${spring.version}
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-10-17 22:35:29.796
+!MESSAGE The POM for org.springframework:spring-context:jar:${spring.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2021-10-17 22:35:30.688
+!MESSAGE Could not download javadoc for org.springframework:spring-context:${spring.version}
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework:spring-context:jar:javadoc:${spring.version}
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework:spring-context:jar:javadoc:${spring.version}
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-10-17 22:35:30.689
+!MESSAGE Could not resolve artifact org.springframework:spring-context:jar:javadoc:${spring.version}
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2021-10-17 22:35:30.689
+!MESSAGE Missing org.springframework:spring-context:jar:javadoc:${spring.version}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-17 22:36:37.249
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-17 22:36:37.250
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@268f62cf[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=966)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-17 22:36:37.271
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-17 22:36:37.371
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.ui 2 2 2021-10-17 22:36:41.634
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-17 22:36:43.544
+!MESSAGE Boot LS startup time from start to initialized: 6222ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-17 22:36:44.933
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.htefaILRisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-17 22:36:44.998
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-17 22:36:45.001
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-17 22:36:45.002
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-17 22:36:45.002
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-17 22:36:45.002
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.htefaILR => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-17 22:36:45.009
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-17 22:36:45.011
+!MESSAGE buffering callback sts4.classpath.htefaILR Lab1 false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-17 22:36:45.012
+!MESSAGE executing callback sts4.classpath.htefaILR 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-17 22:36:46.228
+!MESSAGE executing callback sts4.classpath.htefaILR SUCCESS [done]
