@@ -7,15 +7,15 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import javax.sql.DataSource;
-import javax.xml.crypto.Data;
 
 @Configuration
+@ComponentScan(basePackages = "com.satishlabs")
 public class AppConfig {
     @Bean
     public DataSource getDataSource(){
         BasicDataSource ds = new BasicDataSource();
         ds.setDriverClassName("com.mysql.jdbc.Driver");
-        ds.setDriverClassName("com.mysql.jdbcDriver");
+        ds.setUrl("jdbc:mysql://localhost:3306/mydb");
         ds.setUsername("root");
         ds.setPassword("root");
 
